@@ -8,9 +8,9 @@ public class Worker {
     private WorkerLevel level;
     private Double baseSalary;
 
-    public Worker(String name, WorkerLevel level, Double baseSalary){
+    public Worker(String name, Double baseSalary){
         this.name = name;
-        this.level = level;
+        this.level = WorkerLevel.JUNIOR;
         this.baseSalary = baseSalary;
     }
     
@@ -50,3 +50,5 @@ public class Worker {
     }
     
 }
+//oi
+

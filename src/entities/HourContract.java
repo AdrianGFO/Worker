@@ -9,6 +9,7 @@ public class HourContract {
     private Double valuePerHour;
     private Integer hours;
 
+    
 
     public Date getDate() {
         return date;
